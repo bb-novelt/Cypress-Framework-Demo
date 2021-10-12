@@ -1,0 +1,17 @@
+<div class="title">All the Boats</div>
+<div *ngIf="this.boats.length == 0">No boat</div>
+<ul>
+  <li *ngFor="let boat of this.boats">
+    <a routerLink="/boat/{{boat._id}}">{{boat.name}}</a>
+    <div class="small">
+      <i> commanded by</i>
+      <b> {{boat.captain || "nobody"}}</b>
+    </div>
+  </li>
+</ul>
+<div>
+  <div>Add a new boat:</div>
+  <input type="text" [(ngModel)]="newName">
+  <div class="message" *ngIf="this.success">Boat added with success</div>
+  <button (click)="onAdd()">Add</button>
+</div>

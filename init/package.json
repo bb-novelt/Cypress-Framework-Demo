@@ -1,0 +1,40 @@
+{
+  "name": "scripts-cypress-demo",
+  "version": "1.0.0",
+  "dependencies": {
+    "kill-port": "^1.6.1",
+    "nodemon": "^2.0.13",
+    "path-exists": "latest",
+    "nps": "^5.10.0",
+    "nps-utils": "^1.7.0"
+  },
+  "scripts": {
+    "help": "nps ",
+    "update_scripts": "node scripts/updateScripts.js",
+    "workflow.start_to_dev": "nps workflow.start_to_dev",
+    "workflow.install": "nps workflow.install",
+    "killall": "nps killall",
+    "cypress.start": "nps cypress.start",
+    "cypress.install_code_coverage": "nps cypress.install_code_coverage",
+    "cypress.install_wsl2_lib": "nps cypress.install_wsl2_lib",
+    "cypress.install_xserver": "nps cypress.install_xserver",
+    "angular.install": "nps angular.install",
+    "angular.start": "nps angular.start",
+    "angular.build": "nps angular.build",
+    "angular.startBuild": "nps angular.startBuild",
+    "angular.installCodeCoverage.script": "nps angular.installCodeCoverage.script",
+    "express.start": "nps express.start",
+    "express.start_ci": "nps express.start_ci",
+    "express.stop": "nps express.stop",
+    "express.install": "nps express.install",
+    "express.build": "nps express.build",
+    "mongodb.start_no_restore": "nps mongodb.start_no_restore",
+    "mongodb.restore_default": "nps mongodb.restore_default",
+    "mongodb.export_default_db": "nps mongodb.export_default_db",
+    "mongodb.open_compass": "nps mongodb.open_compass",
+    "mongodb.start_ci": "nps mongodb.start_ci",
+    "mongodb.install": "nps mongodb.install",
+    "mongodb.start": "nps mongodb.start"
+  },
+  "devDependencies": {}
+}

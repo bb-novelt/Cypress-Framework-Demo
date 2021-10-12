@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"tortuga.TheCaptain"},{"v":2,"key":{"captainId":1},"name":"captainId_1","ns":"tortuga.TheCaptain"}],"uuid":"18dde820f921419581da117bc15f629d"}

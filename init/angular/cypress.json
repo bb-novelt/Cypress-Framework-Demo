@@ -1,0 +1,17 @@
+{
+  "integrationFolder": "cypress/integration",
+  "supportFile": "cypress/support/index.js",
+  "videosFolder": "cypress/videos",
+  "screenshotsFolder": "cypress/screenshots",
+  "pluginsFile": "cypress/plugins/index.js",
+  "fixturesFolder": "cypress/fixtures",
+  "integrationFolder": "src/app",
+  "testFiles": "**/*.e2e.js",
+  "experimentalStudio": true,
+  "baseUrl": "http://localhost:4200",
+  "env": {
+    "codeCoverage": {
+      "url": "http://localhost:8080/__coverage__"
+    }
+  }
+}

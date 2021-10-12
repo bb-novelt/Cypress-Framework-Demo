@@ -1,0 +1,11 @@
+<div class="title">Boat Name: {{boat.name}}</div>
+<div class="listWrapper">
+  <div>Select a Captain</div>
+  <div *ngFor="let captain of captains">
+    <input type="radio" [(ngModel)]="captainSelected" name="list_name" value="{{captain}}" id="{{captain}}" (change)="onCaptainChange(captain)"/>
+    <label for="{{captain}}">{{captain}}</label>
+  </div>
+    <div class="message" *ngIf="this.success">A new captain has been selected with success</div>
+<!--    <button (click)="delete(boat._id)">Delete</button>-->
+</div>
+<a routerLink="">Back to boat list</a>
