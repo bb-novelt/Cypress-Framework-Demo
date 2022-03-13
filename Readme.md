@@ -1,6 +1,6 @@
-#Cypress Framework Demo
+# Cypress Framework Demo
 
-##Getting started
+## Getting started
 ```
 cd init && yarn install
 
